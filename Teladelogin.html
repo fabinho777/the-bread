@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css">
+
+    <title>Tela de Login | The Bread </title>
+</head>
+<body>
+
+    <style>
+body{
+    
+   margin: 0; 
+   padding: 0;
+   background: url(fundo.png); 
+   background-size: auto;
+   font-family: Arial, Helvetica, sans-serif
+   
+}
+
+.login {
+
+    width: 320px;
+    height:420;
+    border: 2px solid #000;
+    border-radius: 0px 80px 0px 80px;
+    color: #fff;
+    background-color: rgba(0,0,5,0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+    padding: 68px 28px;
+    box-shadow: 9px 3px 20px red;
+}
+
+.usuario{
+    border-radius: 100px;
+    height: auto;
+    width: 150px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px #white;
+    top: 50%;
+    left: 112px;
+
+    
+    
+
+}
+
+h1{
+    margin: 0; 
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px; 
+    text-transform: uppercase;
+    text-align:left;
+    font-size: 25px;
+
+}
+
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight:bolder;
+
+
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+.login input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 4px solid rgba(245, 15, 15, 0.226);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 13.8px;
+
+
+}
+
+
+.login input[type="submit"] {
+    border: 45px 40px 20x;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #fff;
+    transition: 0.2s;
+    border-radius: 20px 0px 20px 0px;
+    
+}
+.login input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgba(253, 61, 61, 0.226);
+    transition: 0.2s;
+}
+.login a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(228, 23, 23, 0.8);
+    transition: 0.2s;
+}
+.login a:hover {
+    transition: 0.2s;
+    color: #ff4d4d;
+}
+
+    </style>
+    <div class="login">
+
+        <img src="logo.png" class="usuario" width="100" height="100">
+        <h1>Login</h1>
+        <form>
+
+            <p>Usuário:</p>
+            <input type="text" name="" placeholder="Insira seu nome de usuário" required>
+            <p>Senha:</p>
+            <input type="password" name="" placeholder="Insira sua senha">
+            <input type="submit" name="" value="login">
+            
+            <a href="#">Esqueceu sua senha?</a><br>
+            <a href="#">Ainda não possui uma conta?</a>
+            
+        </form>
+        
+    </div>
+
+
+
+</body>
+</html>
