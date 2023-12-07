@@ -1,2 +1,2 @@
 # the-bread
-Site de clientes 
+Site para clientes (primeiro projeto)
